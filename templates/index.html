@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Disease Detection System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🌱</span>
+                <span>Crop Disease Detection</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/" class="active">HOME</a></li>
+                <li><a href="/detect">DETECT DISEASE</a></li>
+                <li><a href="/history">HISTORY</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>Crop Disease Detection</h1>
+                <p>
+                    Upload a photo of your plant leaf and get instant disease identification 
+                    with expert treatment recommendations. Protect your crops and maximize 
+                    your harvest with our intelligent detection system.
+                </p>
+            </div>
+            <div class="hero-image">
+                <div class="plant-illustration">🌿</div>
+            </div>
+        </div>
+
+        <!-- Info Box -->
+        <div class="info-box">
+            <h3>How to use:</h3>
+            <ul>
+                <li>Click on "Detect Disease" in the navigation menu</li>
+                <li>Upload a clear image of your crop leaf</li>
+                <li>Click "Detect Disease" button</li>
+                <li>View instant results with treatment suggestions</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

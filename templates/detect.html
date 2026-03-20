@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detect Disease - Crop Disease Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🌱</span>
+                <span>Crop Disease Detection</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/">HOME</a></li>
+                <li><a href="/detect" class="active">DETECT DISEASE</a></li>
+                <li><a href="/history">HISTORY</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="upload-section">
+            <h2>Upload Leaf Image for Detection</h2>
+            <p style="color: #666; margin-bottom: 30px;">Select a clear image of your crop leaf to identify diseases</p>
+            <form action="/predict" method="POST" enctype="multipart/form-data">
+                <div class="file-input">
+                    <input type="file" name="file" id="file" accept="image/*" required>
+                    <label for="file">📷 Choose Image</label>
+                </div>
+                <div id="file-name" style="margin: 15px 0; color: #2d6a4f; font-weight: 500;"></div>
+                <button type="submit" class="submit-btn">🔍 Detect Disease</button>
+            </form>
+        </div>
+
+        <div class="info-box">
+            <h3>Tips for best results:</h3>
+            <ul>
+                <li>Use a clear, well-lit photo of the leaf</li>
+                <li>Ensure the disease symptoms are visible</li>
+                <li>Avoid blurry or dark images</li>
+                <li>Focus on a single leaf for accurate detection</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('file').addEventListener('change', function(e) {
+            const fileName = e.target.files[0]?.name;
+            const fileNameDiv = document.getElementById('file-name');
+            if (fileName) {
+                fileNameDiv.textContent = '✓ Selected: ' + fileName;
+            }
+        });
+    </script>
+</body>
+</html>
