@@ -24,11 +24,6 @@
 
     <div class="container">
         <div class="result-section">
-            {% if demo_mode %}
-            <div class="note" style="margin-bottom: 30px;">
-                <p><strong>🔬 DEMO MODE:</strong> This is a random prediction for demonstration purposes. To get real AI predictions, train the model using <code>python train_model.py</code> with the PlantVillage dataset.</p>
-            </div>
-            {% endif %}
             
             <div class="uploaded-image">
                 <h3>📸 Uploaded Image</h3>
@@ -71,7 +66,18 @@
 
                 <div style="display: flex; gap: 15px; margin-top: 40px;">
                     <a href="/detect" class="back-btn" style="flex: 1;">🔄 Upload Another Image</a>
-                    <a href="/generate-report/{{ image_path }}" class="back-btn" style="flex: 1; background: linear-gradient(135deg, #52b788 0%, #40916c 100%);">📥 Download Full Report (PDF)</a>
+                    <form method="POST" action="/generate-report" style="flex: 1;">
+                        <input type="hidden" name="image_path" value="{{ image_path }}">
+                        <input type="hidden" name="disease_name" value="{{ disease_name }}">
+                        <input type="hidden" name="confidence" value="{{ confidence }}">
+                        <input type="hidden" name="symptoms" value="{{ symptoms }}">
+                        <input type="hidden" name="causes" value="{{ causes }}">
+                        <input type="hidden" name="treatment" value="{{ treatment }}">
+                        <input type="hidden" name="prevention" value="{{ prevention }}">
+                        <input type="hidden" name="pesticides" value="{{ pesticides }}">
+                        <input type="hidden" name="organic_solutions" value="{{ organic_solutions }}">
+                        <button type="submit" class="back-btn" style="width: 100%; cursor: pointer; border: none;">📥 Download Full Report (PDF)</button>
+                    </form>
                 </div>
             </div>
         </div>

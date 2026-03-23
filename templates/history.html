@@ -164,7 +164,12 @@
                     <p><strong>Confidence:</strong> {{ item.confidence }}%</p>
                     <p><strong>Date:</strong> {{ item.date }}</p>
                     <div style="display: flex; gap: 10px; margin-top: 15px;">
-                        <a href="/download/{{ item.image }}" class="download-btn" style="flex: 1;">📥 Download</a>
+                        <form action="/generate-report-history" method="POST" style="flex: 1;">
+                            <input type="hidden" name="image_path" value="{{ item.image }}">
+                            <input type="hidden" name="disease_name" value="{{ item.disease }}">
+                            <input type="hidden" name="confidence" value="{{ item.confidence }}">
+                            <button type="submit" class="download-btn" style="width:100%; border:none; cursor:pointer;">📥 Download PDF</button>
+                        </form>
                         <form action="/delete-result/{{ item.image }}" method="POST" style="flex: 1;" onsubmit="return confirm('Delete this result?')">
                             <button type="submit" class="delete-btn">🗑️ Delete</button>
                         </form>

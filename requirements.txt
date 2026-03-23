@@ -1,3 +1,11 @@
 Flask
 Pillow
 Werkzeug
+mysql-connector-python
+python-dotenv
+numpy
+torch
+torchvision
+reportlab
+scikit-learn
+

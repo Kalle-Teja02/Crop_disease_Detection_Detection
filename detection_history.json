@@ -1,92 +1,86 @@
 [
   {
-    "image": "Leaves-of-Black-pepper_rot15.jpg",
-    "disease": "Healthy Pepper Plant",
-    "confidence": 73.2,
-    "date": "2026-03-20 20:47:23"
-  },
-  {
-    "image": "OIP_1.webp",
-    "disease": "Tomato - Late Blight",
-    "confidence": 90.42,
-    "date": "2026-03-20 20:46:54"
-  },
-  {
-    "image": "OIP_1_flipv.jpg",
-    "disease": "Tomato - Late Blight",
-    "confidence": 56.12,
-    "date": "2026-03-20 20:27:18"
-  },
-  {
     "image": "OIP.webp",
     "disease": "Pepper - Bacterial Spot",
-    "confidence": 82.77,
-    "date": "2026-03-20 20:26:34"
+    "confidence": 91.41,
+    "date": "2026-03-23 20:44:58"
   },
   {
-    "image": "1-9.jpg",
-    "disease": "Healthy Tomato Plant",
-    "confidence": 99.25,
-    "date": "2026-03-16 21:14:43"
+    "image": "leaf-leaves-texture-grape-39537.jpg",
+    "disease": "Healthy Grape Vine",
+    "confidence": 89.63,
+    "date": "2026-03-23 20:44:29"
   },
   {
-    "image": "1-9.jpg",
-    "disease": "Healthy Tomato Plant",
-    "confidence": 99.25,
-    "date": "2026-03-15 19:03:58"
+    "image": "OIP_blur.jpg",
+    "disease": "Corn - Northern Leaf Blight",
+    "confidence": 80,
+    "date": "2026-03-23 20:44:07"
   },
   {
-    "image": "Leaves-of-Black-pepper_rot15.jpg",
-    "disease": "Healthy Pepper Plant",
-    "confidence": 99.28,
-    "date": "2026-03-15 19:03:29"
-  },
-  {
-    "image": "Leaves-of-Black-pepper_rot-15.jpg",
-    "disease": "Grape - Leaf Blight",
-    "confidence": 93.63,
-    "date": "2026-03-15 18:56:32"
-  },
-  {
-    "image": "corn-leaves.jpg",
-    "disease": "Healthy Corn Plant",
-    "confidence": 99.5,
-    "date": "2026-03-15 18:43:07"
-  },
-  {
-    "image": "corn-leaves.jpg",
-    "disease": "Healthy Corn Plant",
-    "confidence": 99.5,
-    "date": "2026-03-15 18:39:27"
+    "image": "IMG-common-rust-early-lesions-Pioneer-NA_US-V1_flip.jpg",
+    "disease": "Corn - Common Rust",
+    "confidence": 85.99,
+    "date": "2026-03-22 19:44:49"
   },
   {
     "image": "Leaves-of-Black-pepper.jpg",
     "disease": "Healthy Pepper Plant",
-    "confidence": 65.0,
-    "date": "2026-03-15 14:45:43"
+    "confidence": 88.2,
+    "date": "2026-03-22 11:32:48"
   },
   {
-    "image": "black_rot_leaf_spot.jpg",
-    "disease": "Grape - Black Rot",
-    "confidence": 63.5,
-    "date": "2026-03-15 14:44:36"
+    "image": "leaf-leaves-texture-grape-39537.jpg",
+    "disease": "Healthy Grape Vine",
+    "confidence": 87.4,
+    "date": "2026-03-22 11:32:22"
   },
   {
-    "image": "corn-leaves.jpg",
-    "disease": "Healthy Corn Plant",
-    "confidence": 66.5,
-    "date": "2026-03-15 14:43:55"
+    "image": "1-9.jpg",
+    "disease": "Healthy Tomato Plant",
+    "confidence": 86.6,
+    "date": "2026-03-22 11:31:33"
   },
   {
-    "image": "IMG-common-rust-early-lesions-Pioneer-NA_US-V1.jpg",
-    "disease": "Corn - Common Rust",
-    "confidence": 64.0,
-    "date": "2026-03-15 14:43:38"
+    "image": "tomato_bacterial_spot2_color.jpg",
+    "disease": "Tomato - Bacterial Spot",
+    "confidence": 90.4,
+    "date": "2026-03-22 11:31:11"
   },
   {
     "image": "can-you-eat-potato-leaves-1020x680.jpg",
     "disease": "Healthy Potato Plant",
-    "confidence": 67.0,
-    "date": "2026-03-15 14:43:18"
+    "confidence": 93.4,
+    "date": "2026-03-22 11:30:26"
+  },
+  {
+    "image": "D869_15_283_1200.jpg",
+    "disease": "Potato - Early Blight",
+    "confidence": 91.2,
+    "date": "2026-03-22 11:29:51"
+  },
+  {
+    "image": "Leaves-of-Black-pepper.jpg",
+    "disease": "Healthy Pepper Plant",
+    "confidence": 88.2,
+    "date": "2026-03-22 11:29:24"
+  },
+  {
+    "image": "Leaves-of-Black-pepper_rot-15.jpg",
+    "disease": "Healthy Pepper Plant",
+    "confidence": 65.6,
+    "date": "2026-03-22 11:28:56"
+  },
+  {
+    "image": "image.png",
+    "disease": "Grape - Leaf Blight",
+    "confidence": 90.2,
+    "date": "2026-03-22 11:28:05"
+  },
+  {
+    "image": "leaf-leaves-texture-grape-39537_flip.jpg",
+    "disease": "Healthy Grape Vine",
+    "confidence": 64.2,
+    "date": "2026-03-22 11:27:45"
   }
 ]
