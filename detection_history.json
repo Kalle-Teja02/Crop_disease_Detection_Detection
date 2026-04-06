@@ -3,13 +3,115 @@
     "image": "OIP.webp",
     "disease": "Pepper - Bacterial Spot",
     "confidence": 91.41,
-    "date": "2026-03-23 20:44:58"
+    "date": "2026-03-26 10:18:44"
+  },
+  {
+    "image": "OIP.webp",
+    "disease": "Pepper - Bacterial Spot",
+    "confidence": 91.41,
+    "date": "2026-03-26 09:46:39"
   },
   {
     "image": "leaf-leaves-texture-grape-39537.jpg",
     "disease": "Healthy Grape Vine",
     "confidence": 89.63,
-    "date": "2026-03-23 20:44:29"
+    "date": "2026-03-26 09:45:15"
+  },
+  {
+    "image": "IMG-common-rust-early-lesions-Pioneer-NA_US-V1.jpg",
+    "disease": "Corn - Common Rust",
+    "confidence": 89.6,
+    "date": "2026-03-26 08:59:15"
+  },
+  {
+    "image": "OIP_1.webp",
+    "disease": "Tomato - Late Blight",
+    "confidence": 85.08,
+    "date": "2026-03-26 08:55:47"
+  },
+  {
+    "image": "OIP_1.webp",
+    "disease": "Tomato - Late Blight",
+    "confidence": 85.08,
+    "date": "2026-03-25 21:57:44"
+  },
+  {
+    "image": "OIP.webp",
+    "disease": "Potato - Late Blight",
+    "confidence": 88.89,
+    "date": "2026-03-25 21:53:42"
+  },
+  {
+    "image": "black_rot_leaf_spot.jpg",
+    "disease": "Grape - Black Rot",
+    "confidence": 91.83,
+    "date": "2026-03-25 21:51:35"
+  },
+  {
+    "image": "black_rot_leaf_spot.jpg",
+    "disease": "Grape - Black Rot",
+    "confidence": 91.83,
+    "date": "2026-03-25 21:45:00"
+  },
+  {
+    "image": "OIP.webp",
+    "disease": "Pepper - Bacterial Spot",
+    "confidence": 91.41,
+    "date": "2026-03-25 19:07:12"
+  },
+  {
+    "image": "IMG-common-rust-early-lesions-Pioneer-NA_US-V1.jpg",
+    "disease": "Corn - Common Rust",
+    "confidence": 89.6,
+    "date": "2026-03-25 19:06:48"
+  },
+  {
+    "image": "OIP.webp",
+    "disease": "Tomato - Early Blight",
+    "confidence": 83.61,
+    "date": "2026-03-25 19:06:29"
+  },
+  {
+    "image": "OIP.webp",
+    "disease": "Tomato - Early Blight",
+    "confidence": 83.61,
+    "date": "2026-03-24 19:33:41"
+  },
+  {
+    "image": "OIP.webp",
+    "disease": "Pepper - Bacterial Spot",
+    "confidence": 91.41,
+    "date": "2026-03-24 19:33:20"
+  },
+  {
+    "image": "OIP.webp",
+    "disease": "Corn - Northern Leaf Blight",
+    "confidence": 80,
+    "date": "2026-03-24 19:32:59"
+  },
+  {
+    "image": "leaf-leaves-texture-grape-39537.jpg",
+    "disease": "Healthy Grape Vine",
+    "confidence": 89.63,
+    "date": "2026-03-24 19:32:39"
+  },
+  {
+    "image": "leaf-leaves-texture-grape-39537.jpg",
+    "disease": "Tomato - Early Blight",
+    "confidence": 90.84,
+    "date": "2026-03-24 19:28:01"
+  },
+  {
+    "image": "OIP.webp",
+    "disease": "Pepper - Bacterial Spot",
+    "confidence": 91.41,
+    "date": "2026-03-24 17:00:22"
+  },
+  {
+    "image": "OIP.webp",
+    "disease": "Pepper - Bacterial Spot",
+    "confidence": 91.41,
+    "date": "2026-03-23 20:44:58"
   },
   {
     "image": "OIP_blur.jpg",
@@ -28,12 +130,6 @@
     "disease": "Healthy Pepper Plant",
     "confidence": 88.2,
     "date": "2026-03-22 11:32:48"
-  },
-  {
-    "image": "leaf-leaves-texture-grape-39537.jpg",
-    "disease": "Healthy Grape Vine",
-    "confidence": 87.4,
-    "date": "2026-03-22 11:32:22"
   },
   {
     "image": "1-9.jpg",
@@ -58,29 +154,5 @@
     "disease": "Potato - Early Blight",
     "confidence": 91.2,
     "date": "2026-03-22 11:29:51"
-  },
-  {
-    "image": "Leaves-of-Black-pepper.jpg",
-    "disease": "Healthy Pepper Plant",
-    "confidence": 88.2,
-    "date": "2026-03-22 11:29:24"
-  },
-  {
-    "image": "Leaves-of-Black-pepper_rot-15.jpg",
-    "disease": "Healthy Pepper Plant",
-    "confidence": 65.6,
-    "date": "2026-03-22 11:28:56"
-  },
-  {
-    "image": "image.png",
-    "disease": "Grape - Leaf Blight",
-    "confidence": 90.2,
-    "date": "2026-03-22 11:28:05"
-  },
-  {
-    "image": "leaf-leaves-texture-grape-39537_flip.jpg",
-    "disease": "Healthy Grape Vine",
-    "confidence": 64.2,
-    "date": "2026-03-22 11:27:45"
   }
 ]

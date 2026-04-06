@@ -111,17 +111,5 @@ def generate_pdf_report(image_path, disease_name, symptoms, causes, treatment,
     add_section("Recommended Pesticides", pesticides)
     add_section("Organic Solutions",     organic_solutions)
 
-    # ── Footer note ──────────────────────────────────────────────────────────
-    elements.append(Spacer(1, 0.3*inch))
-    elements.append(HRFlowable(width="100%", thickness=1,
-                                color=colors.HexColor('#b7e4c7'), spaceAfter=8))
-    elements.append(Paragraph(
-        "This report was generated automatically by the Crop Disease Detection System. "
-        "Please consult an agricultural expert for professional advice.",
-        ParagraphStyle('Footer', parent=styles['Normal'],
-                       fontSize=8, textColor=colors.HexColor('#888888'),
-                       alignment=TA_CENTER)
-    ))
-
     doc.build(elements)
     return output_path

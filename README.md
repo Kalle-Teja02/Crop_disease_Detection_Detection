@@ -1,89 +1,43 @@
 # Crop Disease Detection System
 
-A web application for detecting crop diseases from images. Upload a photo of your crop and get instant disease identification with treatment recommendations.
+Detects diseases in corn, grape, pepper, potato, and tomato leaves using a PyTorch CNN model.
 
-## Features
+## How to Start
 
-- Detect diseases in Corn, Tomato, Grape, Pepper, and Potato
-- Upload images and get instant predictions
-- View prediction history
-- Generate disease reports with treatment information
-- Automatic data storage
+```bash
+cd crop-disease-detection
+python app.py
+```
 
-## Quick Start
+Then open http://127.0.0.1:5000 in your browser.
 
-1. Install dependencies:
+## Health Check
+
+Run this anytime to verify everything is working before starting:
+
+```bash
+python check_health.py
+```
+
+## Install Dependencies (first time only)
+
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Start the application:
-```bash
-python app.py
-```
+## Supported Crops & Diseases
 
-3. Open http://localhost:5000 in your browser
+| Crop    | Diseases                                      |
+|---------|-----------------------------------------------|
+| Corn    | Common Rust, Northern Leaf Blight, Healthy    |
+| Grape   | Black Rot, Leaf Blight, Healthy               |
+| Pepper  | Bacterial Spot, Healthy                       |
+| Potato  | Early Blight, Late Blight, Healthy            |
+| Tomato  | Bacterial Spot, Early Blight, Late Blight, Leaf Mold, Healthy |
 
-4. Upload a crop image to detect diseases
+## Features
 
-## Supported Crops
-
-- Corn (Healthy, Common Rust, Northern Leaf Blight)
-- Tomato (Healthy, Early Blight, Late Blight, Bacterial Spot, Leaf Mold)
-- Grape (Healthy, Black Rot, Leaf Blight)
-- Pepper (Healthy, Bacterial Spot)
-- Potato (Healthy, Early Blight, Late Blight)
-
-## Project Structure
-
-```
-crop-disease-detection/
-├── app.py                    # Main application
-├── train_cnn_model.py        # Model training
-├── disease_info.py           # Disease information
-├── generate_report.py        # Report generation
-├── requirements.txt          # Dependencies
-├── model_cnn.pkl            # Trained model
-├── services/                # Service modules
-├── utils/                   # Utility functions
-├── templates/               # HTML pages
-└── static/                  # CSS and uploads
-```
-
-## Database
-
-The application stores predictions in:
-- MySQL (primary database)
-- SQLite (backup)
-- JSON (history file)
-
-To set up MySQL, run:
-```bash
-mysql -u root -p crop_disease_db < MYSQL_SETUP.sql
-```
-
-## Configuration
-
-Create a `.env` file with your database settings:
-```
-MYSQL_HOST=localhost
-MYSQL_USER=root
-MYSQL_PASSWORD=your_password
-MYSQL_DB=crop_disease_db
-```
-
-## Technologies
-
-- Python with Flask
-- MySQL and SQLite databases
-- Machine learning model for disease detection
-- HTML/CSS for web interface
-
-## Usage
-
-1. Upload a crop image
-2. Get instant disease prediction
-3. View treatment recommendations
-4. Check prediction history
-
-That's it! The application handles everything automatically.
+- Upload a leaf image → get disease prediction with confidence score
+- Full disease details: symptoms, causes, treatment, prevention, pesticides, organic solutions
+- Download PDF report with all details
+- Detection history with per-entry PDF download
